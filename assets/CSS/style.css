@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*
+Estilos da Pág index.html
+*/
+.center{
+    
+}
+.card{
+    margin: 0px ;
+    padding: 100px ;
+    border: 3px solid crimson;
+    border-radius: 15px;
+
+}
+.container{
+    display: flex;
+    flex-flow: now;
+    justify-content: center;
+    align-items:stretch;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+.menu li{
+    display: inline;
+    padding: 20px;
+   
+}
+
+.menu li a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.menu li a:hover{
+    color: rgba(220, 20, 60, 0.455);
+}
+.p-30{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.br-50{
+    border-radius: 15px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/*
+Estilos da Pág contato.html
+*/

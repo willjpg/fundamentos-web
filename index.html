@@ -12,18 +12,26 @@
 </head>
 <body>
     <nav>
-    <h1>Meus Jogos Favoritos</h1>
-        
-        <ul class="menu">
-            <li class="card"><a href= "index.html">Home</a></li>
-            <li class="card"><a href="contato.html">Contato</a></li>
-            <li class="card"><a href="https://steamcommunity.com/profiles/76561198321386386/" target="_blank">Minha Steam</a></li>
-                <!-- target="_blank" para abrir um link em uma aba diferente -->
+        <h1 class="menu font">Meus Jogos Favoritos</h1>
             
-        </ul>
-    </nav>
+            <ul class="menu font">
+                <li class="card"><a href= "index.html">Home</a></li>
+                <li class="card"><a href="contato.html">Contato</a></li>
+                <li class="card"><a href="https://steamcommunity.com/profiles/76561198321386386/" target="_blank">Minha Steam</a></li>
+                    <!-- target="_blank" para abrir um link em uma aba diferente -->
+                
+            </ul>
+        </nav>
+    <div class="container">
+        <div class="content">
+            
+            <button onclick="darkTheme()" class="btn">Dark/Light</button>
+        </div>
+    </div>
+
+    
     <section>
-        <div class="container">
+        <div class="containerr">
         <div class="p-30 justify">
         <h2>Hollow Knight</h2>
             <p>Passei algumas horas nesse jogo, a ambientação é incrível, a cada descoberta, mapa novo, chefe novo é simplesmente incrível. Mecânicas, que se é necessário dar atenção para prosseguir, a cada morte um aprendizado novo. </p>
@@ -38,7 +46,7 @@
         <iframe class="br-50"width="560" height="315" src="https://www.youtube.com/embed/UAO2urG23S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>     
 </div>
-        <div class="container">
+        <div class="containerr">
     <div >
         <img class="br-50" width="560" height="315" src="https://cdn.akamai.steamstatic.com/steam/apps/108600/capsule_616x353.jpg?t=1639992670" alt="Project Zomboid">
         
@@ -61,8 +69,9 @@
     <!-- <p> é sobre paragrafo/texto|| <br> quebra linha -->
     <!-- div serve para dividir/separar o código e organizar -->
     
-    <footer class="container">
+    <footer class="containerr">
        Todos os direitos reservados: Willian Ferreira &COPY;
-    </footer>    
+    </footer>
+    <script src="assets/scripts/scripts.js"></script>    
 </body>
 </html>

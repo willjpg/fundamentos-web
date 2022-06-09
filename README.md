@@ -19,7 +19,7 @@
 
 <H2 id="about">📙 About</H2>
 
-<p>Uma página com algumas características: </p>
+<p>Uma página web com algumas características: </p>
 <ul>
 <li>Html </li>
 <li>JavaScript</li>

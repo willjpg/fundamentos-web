@@ -2,60 +2,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:wght@300&display=swap');
 /*Estilos da Pág index.html*/
 
-.card{
+.card {
     display: flex;
     justify-content: right;
     align-items: right;
 
-    
+
     border-radius: 15px;
 
 }
-.font{
+
+.font {
     font-family: "Didact Gothic";
 }
-.containerr{
+
+.containerr {
     display: flex;
     flex-flow: now;
     justify-content: center;
-    align-items:stretch;
+    align-items: stretch;
     font-family: "Roboto";
     font-weight: 400;
 
 }
-.menu{
+
+.menu {
     height: 10vh;
     padding: 30px;
 
 }
-.menu li{
+
+.menu li {
     display: inline;
     padding: 10px;
     background-color: rgb(216, 216, 216);
-    
-   
+
+
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     color: crimson;
     font-weight: bold;
     font-size: 20px;
-    
+
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: rgba(220, 20, 60, 0.455);
 }
-.p-30{
+
+.p-30 {
     padding: 30px;
     text-align: center;
     font-size: 30px;
 }
-.br-50{
+
+.br-50 {
     border-radius: 15px;
 }
 
-.justify{
+.justify {
     text-align: justify;
 }
 
@@ -67,17 +74,17 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --fundo: #f5f5f5;
     --text: #212121;
 }
 
-body{
+body {
     background-color: var(--fundo);
     color: var(--text);
 }
 
-.container{
+.container {
     width: 100vw;
     height: 10vh;
 
@@ -86,13 +93,13 @@ body{
     align-items: right;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.btn{
+.btn {
     margin-top: 32px;
     width: 160px;
     padding: 8px;
@@ -102,15 +109,16 @@ body{
     font-weight: bold;
 }
 
-.dark-theme{
+.dark-theme {
     background-color: var(--text);
     color: var(--fundo);
 }
 
-.left{
+.left {
     justify-content: left;
     align-items: left;
 }
+
 /*
 Estilos da Pág contato.html
 */

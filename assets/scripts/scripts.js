@@ -15,7 +15,7 @@ function validaNome() {
    let txtNome = document.querySelector('#txtNome')
    if (nome.value.length < 3) {
       txtNome.innerHTML = 'Nome Inválido'
-      txtNome.style.color = 'red' 
+      txtNome.style.color = 'red'
    } else {
       txtNome.innerHTML = 'Nome Válido'
       txtNome.style.color = 'green'
@@ -25,9 +25,9 @@ function validaNome() {
 }
 
 function validaEmail() {
-   let txtEmail = document.querySelector('#txtEmail') 
+   let txtEmail = document.querySelector('#txtEmail')
 
-   if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1 ) {
+   if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
       txtEmail.innerHTML = 'E-mail inválido'
       txtEmail.style.color = 'red'
    } else {
@@ -52,13 +52,13 @@ function validaMenssagem() {
 
 function enviar() {
    if (nomeOk == true && emailOk == true && menssagemOk == true) {
-      alert ('Formulário enviado com sucesso!')
+      alert('Formulário enviado com sucesso!')
    } else {
-      alert ('Preencha o formulário corretamente antes de enviar...')
+      alert('Preencha o formulário corretamente antes de enviar...')
    }
 }
 
 // Dark Theme
-function darkTheme(){
-    document.body.classList.toggle('dark-theme')
+function darkTheme() {
+   document.body.classList.toggle('dark-theme')
 }

@@ -37,7 +37,7 @@
 <H2 id="preview">🖼️ Preview</H2>
 
 <section align="center">
-    <img alt="My games website overview" src="./assets/img/Dark theme.gif"/>
+    <img alt="My games website overview" src="./assets/img/Animação2.gif"/>
 </section>
 
 ---

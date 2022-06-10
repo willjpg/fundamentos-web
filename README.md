@@ -25,7 +25,7 @@
 <li>JavaScript</li>
 <li>CSS</li>
 </ul>
-<p>O desafio é criar uma página web para consolidar os fundamentos das aulas de Html,JavaScript e CSS básico.</p>
+<p>O desafio é criar uma página web para consolidar os fundamentos das aulas de Html, JavaScript e CSS básico.</p>
 <p>Aulas pela Generation Brasil e executado por <a href="https://www.linkedin.com/in/willfdasilva/">Willian Ferreira</a></p>
 
 <!-- <p>
@@ -44,16 +44,17 @@
 
 <H2 id="requirements">💡 Requirements</H2>
 
-- [x] Flexbox
-- [x] Dark Theme
-- [x] Another Font
+- :white_check_mark:	 Flexbox
+- :white_check_mark:	 Dark Theme
+- :white_check_mark:	 Another Font
 
 ---
 
 <H2 id="technologies">💻 Technologies</H2>
  
     
-    
-- [x] <img alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-- [x] <img alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-- [x] <img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<p>    
+<img alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<img alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</p>
